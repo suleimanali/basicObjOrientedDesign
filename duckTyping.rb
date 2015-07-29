@@ -29,5 +29,3 @@ class Bug
     "Do bugs even talk....?"
   end
 end
-list=[]
-list.inject("suleiman", "goat", "ants").each {|item| puts item.talk}
