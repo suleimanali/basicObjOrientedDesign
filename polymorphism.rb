@@ -20,7 +20,8 @@ class Person
   end
   
   def present
-    "Hello, my name is #{full_name}, my gender is #[gender]."
+    raise NotImplementedError, "Must be implemented by subtypes." #"abstractMethod only to be implemented by the subtypes of the person class(screencaster and student)"
+    #"Hello, my name is #{full_name}, my gender is #[gender]."
   end
 end
 
